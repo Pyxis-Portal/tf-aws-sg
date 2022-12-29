@@ -51,7 +51,6 @@ variable "ec2_id" {
 }
 variable "sg_type" {
   type        = string
-  default     = null
   description = "(Required) Type of rule being created. Valid options are ingress (inbound) or egress (outbound)"
 }
 
